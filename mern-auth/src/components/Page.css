@@ -1,0 +1,38 @@
+.heading1{
+    text-align: initial;
+    padding: 24px 0px 7px 25px;
+    font-size: larger;
+    background-color: 643e6e;
+    color: white;
+    height: 126px;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
+.col{
+    width: 471px;
+    border: 1px solid white;
+    padding: 40px;
+    margin: 10px;
+    height: 300px;
+    background-color: #643e6e;
+    color: white;
+}
+
+.boxx{
+    display: flex;
+    width: 69%;
+    margin-left: 115px;
+    margin-top: 155px;
+}
+
+.boxx-left{
+    margin-top: 58px;
+    margin-left: 38px;
+    background-color: #643e6e;
+}
