@@ -12,8 +12,9 @@ const Landing = ({ isAuthenticated }) => {
 		<section className="landing">
 			<div className="dark-overlay">
 				<div className="landing-inner">
-					<h1>MERN Project</h1>
+					<h1>Perfect ELearning Assessment</h1>
 					<p>Register, Login &amp; Logout Functionality with MERN</p>
+					<p>Signup to see the inner page</p>
 					<br />
 					<div className="buttons">
 						<Link to="/register" className="btn">

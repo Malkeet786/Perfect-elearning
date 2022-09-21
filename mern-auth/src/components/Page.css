@@ -1,10 +1,13 @@
 .heading1{
-    text-align: initial;
+    margin-top: 139px;
+    text-align: left;
     padding: 24px 0px 7px 25px;
     font-size: larger;
-    background-color: 643e6e;
+    background-color: #643e6e;
     color: white;
     height: 126px;
+    margin-left: 92px;
+    font-size: small;
 }
 
 .container{
@@ -35,4 +38,23 @@
     margin-top: 58px;
     margin-left: 38px;
     background-color: #643e6e;
+}
+.lastsec{
+    margin-top: 62px;
+    font-size: large;
+    background-color: #643e6e;
+    color: white;
+}
+.imgsec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px
+}
+
+.videopara{
+    width: 59%;
+    margin-left: 138px;
+    margin-top: 24px;
+    text-align: initial;
+    font-size: small;
 }

@@ -4,10 +4,13 @@ import './Page.css'
 function Page() {
   return (
     <div>
-        <div>
+        <div style={{'display':'flex','backgroundColor':'#643e6e'}}>
             <div className='heading1'>
                 <h4>Develop Your First Android App</h4>
                 <p9>2 Hours Free Certification Class Covering Twiter clone, login Signup, Firebase real time DB, Java</p9>
+            </div>
+            <div>
+                <img style={{'height':'360px' ,'marginLeft':'12px'}} src="https://perfectelearning.com/assets/front/modern/images/campaign-banner.webp" alt="" />
             </div>
         </div>
         <div>
@@ -16,12 +19,12 @@ function Page() {
             </div>
             
             <div style={{"display":"flex"}}>
-                <div style={{"width":"59%","marginLeft":"138px"}}>
+                <div className='videopara' style={{"width":"59%","marginLeft":"138px"}}>
                     <p>In this webinar, OK Google Developer Ms. Jyoti Sharma will discuss the fundamentals of Android application. she'll create an App in this workshop.</p>
                     <p>This class is only for those who want to learn Android Application Development and get Placed in tech companies like Google, Amazon, Microsoft...This class, presented by Google Expert will help both students and working professionals.</p>
                 </div>
                 <div>
-                    <iframe src="https://youtu.be/Ajodjs87-Ro" frameborder="0"></iframe>
+                    <iframe src="https://www.youtube.com/embed/Ajodjs87-Ro?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&playsinline=true&enablejsapi=1&origin=https%3A%2F%2Fperfectelearning.com&widgetid=1" frameborder="0"></iframe>
                 </div>
             </div>
         
@@ -94,6 +97,17 @@ function Page() {
                 <p>Perfect E-Learning</p>
 
                 <p style={{"color":"643e6e"}}>Learn, Grow and Become Leaders of Tomorrow</p>
+            </div>
+        </div>
+
+        <div>
+            <div className='lastsec'>
+                <p>Awards and recognition</p>
+            </div>
+            <div className='imgsec'>
+                <img style={{"height":"70px"}} src="https://perfectelearning.com/assets/front/modern/images/iso-certified.png" alt="" />
+                <img style={{"height":"70px"}} src="https://perfectelearning.com/assets/front/modern/images/startup-india.png" alt="" />
+                <img style={{"height":"70px"}} src="https://perfectelearning.com/assets/front/modern/images/award-hindustantimes.png" alt="" />
             </div>
         </div>
 

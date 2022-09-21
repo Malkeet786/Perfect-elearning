@@ -109,7 +109,8 @@ a {
 /* Landing Page */
 .landing {
 	position: relative;
-	background: url("./img/landing.jpg") no-repeat center 80% / cover;
+	/* background: url("./img/landing.jpg") no-repeat center 80% / cover; */
+	background-color: #643e6e;
 	height: 100vh;
 }
 
